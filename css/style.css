@@ -1,0 +1,346 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1a1a;
+}
+
+.banner {
+    height: 80vh;
+    width:100%;
+    background-image: url('../image/image1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#logo-part1 {
+    border-top: 1px solid #ec7036;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom: 1px solid #ec7036;
+    color: white;
+}
+
+span {
+    color: #b1af91;
+}
+
+ul li {
+    list-style:none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight:500;
+    text-transform: capitalize;
+}
+
+ul li a:hover {
+    color: grey;
+    transition: .5s;
+}
+
+.btn {
+    background-color: #555151;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+}
+
+.content h4 {
+    color: white;
+    font-size: 23px;
+}
+
+.content h2 {
+    color: #d8d5d5;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+
+.content h2 span {
+    color: #977f68;
+}
+
+.content h3 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+
+.news-letter form {
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+
+.news-letter form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 130px 15px 10px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    outline: none;
+}
+
+.news-letter form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #858484;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    color: white;
+    top: 6px;
+    right: 6px;
+}
+
+.news-letter form input:last-child:hover {    
+    transition: .5s;
+    background-color: #b8691f;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #1b1a1a
+}
+
+.about img {
+    /* width: 430px; */
+    width: 40%;
+    height: auto;
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+.about-text {
+    /* width: 550px; */
+    width: 60%;
+    padding-left: 20px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-title h2 {
+    color: #c9c5c5;
+    font-size: 40px;
+    text-transform:capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.about-text h4 {
+    color: white;
+    font-size: 30px;
+    text-transform:capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 1.2px;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    color: white;
+    margin-bottom: 40px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.about-text button {
+    color: white;
+    border: 1px solid #ee6e19;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.about-text button:hover {
+    transition: .5s;
+    background-color: #ee6e19;
+}
+
+.skills {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(27, 26, 26)
+}
+
+.skills-title h2 {
+    color: #c9c5c5;
+    font-size: 40px;
+    text-transform:capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.skills-main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skills-main h3 {
+    color: white;
+    font-size: 30px;
+    text-transform:capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.skills-front-end {
+    width: 50%;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.skills-front-end p {
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-size: 18px;;
+    margin-bottom: 10px;
+}
+
+.skills-back-end {
+    width: 50%;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.skills-back-end p {
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skills-front-end p {
+    margin-bottom: 10px;
+}
+
+.progessbar {
+    width: 100%;
+    display: flex;
+    background-color: #1b1a1a !important;
+}
+
+progress {
+    border-radius: 7px; 
+    width: 100%;
+    height: 22px;
+    margin-left: 10px;
+    box-shadow: 1px 1px 4px #8b888833;
+    margin-bottom: 5px;
+  }
+
+progress::-webkit-progress-bar {
+    background-color: rgb(207, 207, 205);
+    border-radius: 7px;
+  }
+#html::-webkit-progress-value {
+    background-color: rgb(51, 178, 236);
+    border-radius: 7px;
+    /* box-shadow: 1px 1px 5px 3px rgba( 255, 0, 0, 0.8 ); */
+  }
+
+#css::-webkit-progress-value {
+    background-color: rgb(56, 163, 140);
+    border-radius: 7px;
+  }
+
+#bs::-webkit-progress-value {
+    background-color: rgb(243, 229, 100);
+    border-radius: 7px;
+  }
+
+#js::-webkit-progress-value {
+    background-color: rgba(224, 163, 50, 0.877);
+    border-radius: 7px;
+  }
+
+#react::-webkit-progress-value {
+    background-color: rgba(211, 74, 33, 0.877);
+    border-radius: 7px;
+  }
+
+/* BackEnd Progress Bar*/
+
+#pd::-webkit-progress-value {
+    background-color: rgb(51, 125, 236);
+    border-radius: 7px;
+    /* box-shadow: 1px 1px 5px 3px rgba( 255, 0, 0, 0.8 ); */
+  }
+
+#mdb::-webkit-progress-value {
+    background-color: rgb(89, 226, 135);
+    border-radius: 7px;
+  }
+
+#psql::-webkit-progress-value {
+    background-color: rgb(240, 252, 77);
+    border-radius: 7px;
+  }
+
+#node::-webkit-progress-value {
+    background-color: rgba(226, 209, 51, 0.877);
+    border-radius: 7px;
+  }
+
+#sql::-webkit-progress-value {
+    background-color: rgba(223, 46, 40, 0.877);
+    border-radius: 7px;
+  }
