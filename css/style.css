@@ -344,3 +344,7 @@ progress::-webkit-progress-bar {
     background-color: rgba(223, 46, 40, 0.877);
     border-radius: 7px;
   }
+
+footer {
+    background-color:#201f1f
+}
